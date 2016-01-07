@@ -15,7 +15,7 @@
         <osgi.version>6.2.0.BUILD-SNAPSHOT</osgi.version>
         <!-- maven.version is either ${base.version}-SNAPSHOT (snapshots), ${base.version}-<suffix> (milestones), or ${base.version} (GA)-->
         <maven.version>6.2.0.BUILD-SNAPSHOT</maven.version>
-        <repo.type>Release</repo.type>
+        <repo.type>Snapshot</repo.type>
         <talend.nexus.host>newbuild.talend.com:8081</talend.nexus.host>
         <talend.nexus.url>http://${talend.nexus.host}/nexus/content/repositories</talend.nexus.url>
         <talend.nexus.p2unzip.url>http://${talend.nexus.host}/nexus/content/unzip</talend.nexus.p2unzip.url>
